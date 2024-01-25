@@ -1,0 +1,12 @@
+h3 {
+    text-align: center;
+    font-family: Arial;
+}
+
+button {
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    width: 33%
+    
+  }
