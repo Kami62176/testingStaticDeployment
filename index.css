@@ -1,12 +1,64 @@
-h3 {
-    text-align: center;
-    font-family: Arial;
+body {
+    background-color: #244E1D;
+    color: #EEA933;
 }
 
-button {
-    padding: 1em;
+#start-screen {
     text-align: center;
-    display: inline-block;
-    width: 33%
-    
-  }
+    font-size: 30px;
+}
+
+#main-game {
+    display: none;
+    text-align: center;
+}
+
+input {
+    background-color: #89BC4E;
+    border-color: #5A943B;
+    color: #6E383E;
+    height: 30px;
+    font-size: 25px;
+}
+
+/* #btnStart {
+    padding: .5em;
+} */
+
+button {
+    background-color: #6E383E;
+    color: #A79595;
+    border-color: #2E1C18;
+    font-size: x-large;
+    padding: .5em;
+}
+
+button:hover {
+    background-color: #2E1C18;
+}
+
+#storyText {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 45px;
+}
+
+/* #btn1, #btn2, #btn3, #btn4 {
+    height: 50px;
+} */
+
+#btn1:hover, #btn2:hover, #btn3:hover {
+    background-color: #2E1C18;
+}
+
+#end-screen-restart {
+    display: none;
+}
+
+#victory-screen {
+ display: none;
+}
+
+#textInput {
+    display: none;
+}

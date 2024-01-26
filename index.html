@@ -3,8 +3,34 @@
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
 </head>
+<body>
+    <div id="start-screen">
+        <p>Enter your name</p>
+        <input type="text" id="nameField"> 
+        <p>Enter your pronouns</p>
+        <input type="text" id="pronounField"> <br/>
+        <h4 id="errorMessage"></h4>
+        <button id="btnStart">Start Game</button>
+    </div>
 
-<h3 id="storyText"></h3>
-<button id="btn1"></button>
-<button id="btn2"></button>
-<button id="btn3"></button>
+    <div id="main-game">
+        <h3 id="storyText"></h3>
+        <input type="text" id="textInput">
+        <button id="btn1"></button>
+        <button id="btn2"></button>
+        <button id="btn3"></button>
+        <button id="btn4"></button>
+    </div>
+
+    <div id="end-screen-restart">
+        <h3 id="endMessage"></h3>
+        <button id="btnReplay">Replay Game</button>
+        <button id="btnRestart">Go back to start</button>
+    </div>
+    <div id="victory-screen">
+        <h3 id="victoryMessage"></h3>
+        <button id="btnVictory">Back to start</button>
+    </div>
+</body>
+
+
