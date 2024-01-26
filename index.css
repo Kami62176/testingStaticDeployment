@@ -52,11 +52,15 @@ button:hover {
 }
 
 #end-screen-restart {
-    display: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 45px;
 }
 
 #victory-screen {
- display: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 45px;
 }
 
 #textInput {
