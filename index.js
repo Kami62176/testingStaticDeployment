@@ -1,5 +1,4 @@
 let username
-let pronoun
 const mainText = document.getElementById("storyText")
 const btn1 = document.getElementById("btn1")
 const btn2 = document.getElementById("btn2")
@@ -22,8 +21,8 @@ let visitedBlueLake = false
 
 function startGame() {
     let nameInput = document.getElementById("nameField").value
-    let pronounInput = document.getElementById("pronounField").value
-    if (!nameInput || !pronounInput) {
+
+    if (!nameInput) {
         let errorMessage = document.getElementById("errorMessage")
         errorMessage.textContent = "Please fill out both fields before playing"
         return
@@ -31,7 +30,6 @@ function startGame() {
     document.getElementById("start-screen").style.display = "none"
     document.getElementById("main-game").style.display = "block"
     username = nameInput
-    pronoun = pronounInput
     startForestStory()
 }
 
