@@ -193,7 +193,7 @@ function mesmerizingEyes() {
     have eyes in the barky surfaces. They are beautiful and they are all
     looking at you, and you find yourself looking straight at them. Unable to
     look away. The eyes begin to spin. You feel dizzy. Your vision fades to black.`
-    setButtonOnClicks(null, null, startForestStory, null)
+    setButtonOnClicks(null, null, trees, null)
     btn3.innerHTML = "Next"
 }
 
@@ -314,14 +314,14 @@ function swimmingDialog(){
 	unaware you had no time to draw a proper breath and find yourself in need of air fast. Unfortunately what ever 
     has your ankle does not seem to care for your needs and keeps dragging you down until
 	your vision fades to black.`
-    setButtonOnClicks(null. null, startForestStory, null)
+    setButtonOnClicks(null. null, trees, null)
     btn3.innerHTML = "Embrace the abyss"
 }
 
 function peerIntoLake() {
     mainText.innerHTML = `You peer into the lake finding it extremely blue like nothing you've ever seen before. 
                 Another thing you notice is that you cannot see the bottom no matter how hard you look for it.`
-    setButtonOnClicks(null, null, blueLake, null)
+    setButtonOnClicks(null, null, lake, null)
     btn3.innerHTML = "Focus back on the lake"
 }
 
